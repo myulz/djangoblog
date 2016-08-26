@@ -1,0 +1,22 @@
+h3{
+    color:#6e5494;
+}
+
+.title{
+    background-color:#6e5494;
+    color:white;
+    height:150px;
+    vertical-align:middle;
+}
+
+h1,h3{
+    font-family:"Baloo Tamma";
+}
+
+.title h1{
+    padding-top:20px;
+}
+
+.content{
+    padding-top:20px;
+}

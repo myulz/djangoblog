@@ -1,0 +1,26 @@
+{% load staticfiles %}
+<html>
+
+<head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+
+
+    <title>Myles!</title>
+</head>
+<div class="title row text-center center-block">
+    <h1>Myles' Blog</h1>
+    <p>Made with Django</p>
+</div>
+
+<div class="content container">
+
+
+
+    {% block content %} {% endblock %}
+
+</div>
+
+</html>
